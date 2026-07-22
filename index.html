@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MLSB 2026 — ML for Spatially Resolved High-dimensional Biology (NeurIPS Workshop)</title>
+<meta name="description" content="MLSB 2026: A NeurIPS 2026 workshop on machine learning for spatially resolved high-dimensional biology.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html"><span class="dot"></span> MLSB 2026</a>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="cfp.html">Call for Papers</a></li>
+      <li><a href="index.html#speakers">Speakers</a></li>
+      <li><a href="index.html#schedule">Schedule</a></li>
+      <li><a href="index.html#organizers">Organizers</a></li>
+      <li><a href="index.html#dates">Dates</a></li>
+      <li><a href="cfp.html#submit">Submit</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="site-header">
+  <svg class="hero-graphic" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="#ffffff" stroke-width="1" opacity="0.5">
+      <line x1="80" y1="90" x2="220" y2="150"/>
+      <line x1="220" y1="150" x2="180" y2="260"/>
+      <line x1="220" y1="150" x2="360" y2="120"/>
+      <line x1="360" y1="120" x2="470" y2="200"/>
+      <line x1="180" y1="260" x2="330" y2="300"/>
+      <line x1="330" y1="300" x2="470" y2="200"/>
+      <line x1="470" y1="200" x2="620" y2="90"/>
+      <line x1="620" y1="90" x2="740" y2="170"/>
+      <line x1="740" y1="170" x2="700" y2="300"/>
+      <line x1="330" y1="300" x2="480" y2="360"/>
+      <line x1="740" y1="170" x2="880" y2="120"/>
+      <line x1="880" y1="120" x2="1000" y2="190"/>
+      <line x1="1000" y1="190" x2="960" y2="320"/>
+      <line x1="700" y1="300" x2="960" y2="320"/>
+      <line x1="1000" y1="190" x2="1130" y2="140"/>
+    </g>
+    <g fill="#ffffff">
+      <circle cx="80" cy="90" r="5" opacity="0.7"/>
+      <circle cx="220" cy="150" r="7" opacity="0.9"/>
+      <circle cx="180" cy="260" r="5" opacity="0.6"/>
+      <circle cx="360" cy="120" r="6" opacity="0.8"/>
+      <circle cx="470" cy="200" r="8" opacity="0.95"/>
+      <circle cx="330" cy="300" r="5" opacity="0.6"/>
+      <circle cx="620" cy="90" r="6" opacity="0.75"/>
+      <circle cx="740" cy="170" r="7" opacity="0.85"/>
+      <circle cx="480" cy="360" r="4" opacity="0.5"/>
+      <circle cx="700" cy="300" r="5" opacity="0.6"/>
+      <circle cx="880" cy="120" r="6" opacity="0.8"/>
+      <circle cx="1000" cy="190" r="7" opacity="0.9"/>
+      <circle cx="960" cy="320" r="5" opacity="0.6"/>
+      <circle cx="1130" cy="140" r="5" opacity="0.65"/>
+    </g>
+  </svg>
+  <div class="hero-inner">
+    <div class="tag">NeurIPS 2026 Workshop &middot; Paris <span class="badge tbd">Date TBD</span></div>
+    <h1>Machine Learning for Spatially Resolved High-dimensional Biology</h1>
+    <p class="tagline">Advancing ML for spatial biology: novel methods to integrate and analyze spatial multiomics and tissue-scale data.</p>
+    <div class="meta">A one-day workshop bringing together ML researchers and experimental biologists</div>
+    <div class="hero-ctas">
+      <a class="cta" href="cfp.html">Call for Papers &rarr;</a>
+      <a class="cta ghost" href="#speakers">Invited Speakers</a>
+    </div>
+  </div>
+</header>
+
+<div class="stat-strip">
+  <div class="stat"><span class="num">1</span><span class="label">Day workshop</span></div>
+  <div class="stat"><span class="num">4</span><span class="label">Confirmed speakers</span></div>
+  <div class="stat"><span class="num">150&ndash;250</span><span class="label">Expected attendees</span></div>
+  <div class="stat"><span class="num">Sep 5</span><span class="label">Submission deadline</span></div>
+</div>
+
+<main>
+
+<section id="overview">
+  <div class="eyebrow">About</div>
+  <h2>Overview</h2>
+  <p>Spatially resolved biology has become one of the most active frontiers in life sciences. Technologies for spatial transcriptomics, spatial proteomics, and multiplex imaging now measure molecular activity while preserving the position of cells inside intact tissue — enabling the study of how cells communicate, organize, and change within their native microenvironment, with direct consequences for cancer research, immunology, neuroscience, developmental biology, and precision medicine.</p>
+  <p>These measurements raise machine learning problems that do not fit cleanly into single-cell or imaging pipelines. Tissue is a geometric object: cells sit in irregular spatial graphs, signals vary smoothly across space, and biological meaning depends on context at several scales at once — from subcellular structure to multicellular niche to whole organs. Spatial assays are also inherently multimodal, pairing molecular readouts with histology images, and are growing toward atlas-scale and whole-slide resolution.</p>
+  <p>This workshop establishes a dedicated venue at NeurIPS for the intersection of ML and spatially resolved high-dimensional biology — bringing together ML researchers and experimental biologists around a shared set of methodological problems, surfacing open challenges, and beginning to build common benchmarks and evaluation standards for the field.</p>
+</section>
+
+<section class="alt" id="dates">
+  <div class="section-wrap" style="padding:0;">
+    <div class="eyebrow">Timeline</div>
+    <h2>Important Dates</h2>
+    <table class="dates">
+      <thead>
+        <tr><th>Milestone</th><th>Date</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Submission portal opens</td><td>August 2026</td></tr>
+        <tr><td>Submission deadline</td><td>September 5, 2026</td></tr>
+        <tr><td>Reviews returned to authors</td><td>September 22, 2026</td></tr>
+        <tr><td>Acceptance notifications</td><td>September 29, 2026</td></tr>
+        <tr><td>Workshop day</td><td>December 2026, Paris <span class="badge tbd">TBD</span></td></tr>
+      </tbody>
+    </table>
+    <p class="note">All times will be announced in the workshop's local timezone once confirmed by NeurIPS. Submissions are managed via OpenReview — see the <a href="cfp.html">Call for Papers</a> for details.</p>
+  </div>
+</section>
+
+<section id="topics">
+  <div class="eyebrow">Scope</div>
+  <h2>Topics of Interest</h2>
+  <p>We welcome contributions addressing open problems that call for novel ML methods rather than incremental applications, including:</p>
+  <ul class="topics">
+    <li>Learning biologically meaningful spatial representations that hold across scales — from molecules to niches to organs</li>
+    <li>Integrating transcriptomic, proteomic, imaging, and clinical modalities into a single coherent model</li>
+    <li>Modeling cell-cell communication and tissue dynamics over time</li>
+    <li>Interpretable and uncertainty-aware spatial models that biologists can trust</li>
+    <li>Benchmarks, datasets, and evaluation standards specific to spatial tasks</li>
+    <li>Foundation models for spatial biology that integrate biological priors and inductive biases for interpretability and cross-platform / cross-species generalization</li>
+    <li>Handling data sparsity, noise, batch effects, and limited annotations</li>
+    <li>Scaling learning to atlas-scale and whole-slide datasets</li>
+  </ul>
+  <a class="cta" href="cfp.html">Read the full Call for Papers &rarr;</a>
+</section>
+
+<section class="alt" id="speakers">
+  <div class="section-wrap" style="padding:0;">
+    <div class="eyebrow">Program</div>
+    <h2>Invited Speakers</h2>
+    <div class="people-grid">
+      <div class="person-card" tabindex="0" role="button" aria-haspopup="dialog"
+           data-name="Julio Saez-Rodriguez" data-role="EMBL-EBI, Heidelberg" data-photo="images/julio-saez-rodriguez.jpeg"
+           data-bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+        <div class="person-photo"><img src="images/julio-saez-rodriguez.jpeg" alt="Julio Saez-Rodriguez"></div>
+        <div class="person-info">
+          <h3>Julio Saez-Rodriguez</h3>
+          <p class="role">EMBL-EBI, Heidelberg</p>
+          <p class="view-bio">View bio &rarr;</p>
+        </div>
+      </div>
+      <div class="person-card" tabindex="0" role="button" aria-haspopup="dialog"
+           data-name="Maria Brbić" data-role="EPFL, Zurich" data-photo="images/maria-brbic.jpg"
+           data-bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.">
+        <div class="person-photo"><img src="images/maria-brbic.jpg" alt="Maria Brbić"></div>
+        <div class="person-info">
+          <h3>Maria Brbić</h3>
+          <p class="role">EPFL, Zurich</p>
+          <p class="view-bio">View bio &rarr;</p>
+        </div>
+      </div>
+      <div class="person-card" tabindex="0" role="button" aria-haspopup="dialog"
+           data-name="Pierre Bost" data-role="Institut Curie, Paris" data-photo="images/pierre-bost.jpg"
+           data-bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis.">
+        <div class="person-photo"><img src="images/pierre-bost.jpg" alt="Pierre Bost"></div>
+        <div class="person-info">
+          <h3>Pierre Bost</h3>
+          <p class="role">Institut Curie, Paris</p>
+          <p class="view-bio">View bio &rarr;</p>
+        </div>
+      </div>
+      <div class="person-card" tabindex="0" role="button" aria-haspopup="dialog"
+           data-name="Martin Seifert" data-role="10x Genomics" data-photo="images/martin-seifert.jpg"
+           data-bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.">
+        <div class="person-photo"><img src="images/martin-seifert.jpg" alt="Martin Seifert"></div>
+        <div class="person-info">
+          <h3>Martin Seifert</h3>
+          <p class="role">10x Genomics</p>
+          <p class="view-bio">View bio &rarr;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="schedule">
+  <div class="eyebrow">Format</div>
+  <h2>Indicative Schedule</h2>
+  <div class="grid cols-2">
+    <div class="schedule-block">
+      <h4>Morning</h4>
+      <ul>
+        <li>Opening remarks</li>
+        <li>Invited talks (part 1)</li>
+        <li>Contributed spotlights</li>
+        <li>Poster session</li>
+      </ul>
+    </div>
+    <div class="schedule-block">
+      <h4>Afternoon</h4>
+      <ul>
+        <li>Invited talks (part 2)</li>
+        <li>Contributed talks</li>
+        <li>Panel discussion: open problems &amp; benchmarking</li>
+        <li>Closing remarks</li>
+      </ul>
+    </div>
+  </div>
+  <p class="note">Exact timing will be published once the room and slot are confirmed by NeurIPS.</p>
+</section>
+
+<section class="alt" id="organizers">
+  <div class="section-wrap" style="padding:0;">
+    <div class="eyebrow">Team</div>
+    <h2>Organizers</h2>
+    <div class="people-grid">
+      <div class="person-card" tabindex="0" role="button" aria-haspopup="dialog"
+           data-name="Stefan Bonn" data-role="Professor &amp; PI, University Medical Center Hamburg-Eppendorf (UKE), Germany" data-photo="images/stefan-bonn.jpeg"
+           data-bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+        <div class="person-photo"><img src="images/stefan-bonn.jpeg" alt="Stefan Bonn"></div>
+        <div class="person-info">
+          <h3>Stefan Bonn</h3>
+          <p class="role">Professor &amp; PI, University Medical Center Hamburg-Eppendorf (UKE), Germany</p>
+          <p class="email"><a href="mailto:s.bonn@uke.de">s.bonn@uke.de</a></p>
+          <p class="view-bio">View bio &rarr;</p>
+        </div>
+      </div>
+      <div class="person-card" tabindex="0" role="button" aria-haspopup="dialog"
+           data-name="Robin Khatri" data-role="Postdoctoral Researcher &amp; Junior Group Leader, UKE, Germany" data-photo="images/robin-khatri.jpg"
+           data-bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.">
+        <div class="person-photo"><img src="images/robin-khatri.jpg" alt="Robin Khatri"></div>
+        <div class="person-info">
+          <h3>Robin Khatri</h3>
+          <p class="role">Postdoctoral Researcher &amp; Junior Group Leader, UKE, Germany</p>
+          <p class="email"><a href="mailto:r.khatri@uke.de">r.khatri@uke.de</a></p>
+          <p class="view-bio">View bio &rarr;</p>
+        </div>
+      </div>
+      <div class="person-card" tabindex="0" role="button" aria-haspopup="dialog"
+           data-name="Lucia Testa" data-role="Postdoctoral Researcher, UKE, Germany" data-photo="images/lucia-testa.jpeg"
+           data-bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis.">
+        <div class="person-photo"><img src="images/lucia-testa.jpeg" alt="Lucia Testa"></div>
+        <div class="person-info">
+          <h3>Lucia Testa</h3>
+          <p class="role">Postdoctoral Researcher, UKE, Germany</p>
+          <p class="email"><a href="mailto:L.Testa@uke.de">L.Testa@uke.de</a></p>
+          <p class="view-bio">View bio &rarr;</p>
+        </div>
+      </div>
+      <div class="person-card" tabindex="0" role="button" aria-haspopup="dialog"
+           data-name="Behnam Yousefi" data-role="Postdoctoral Researcher, UKE, Germany" data-photo="images/behnam-yousefi.jpg"
+           data-bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.">
+        <div class="person-photo"><img src="images/behnam-yousefi.jpg" alt="Behnam Yousefi"></div>
+        <div class="person-info">
+          <h3>Behnam Yousefi</h3>
+          <p class="role">Postdoctoral Researcher, UKE, Germany</p>
+          <p class="email"><a href="mailto:b.yousefi@uke.de">b.yousefi@uke.de</a></p>
+          <p class="view-bio">View bio &rarr;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pc">
+  <div class="eyebrow">Review</div>
+  <h2>Program Committee</h2>
+  <p class="note">To be announced. The program committee will be finalized and, if necessary, expanded based on the number of submissions received.</p>
+</section>
+
+<section class="alt" id="venue">
+  <div class="section-wrap" style="padding:0;">
+    <div class="eyebrow">Location</div>
+    <h2>Venue</h2>
+    <p>NeurIPS 2026, Paris, France. Room and building details will be announced by the conference organizers closer to the event.</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-brand">MLSB 2026</div>
+  A NeurIPS 2026 Workshop &middot; Questions? Contact the organizers above.
+</footer>
+
+<dialog class="bio-modal" id="bio-modal">
+  <button class="bio-close" id="bio-close" aria-label="Close">&times;</button>
+  <div class="bio-content">
+    <div class="bio-photo"><img id="bio-photo" src="" alt=""></div>
+    <div class="bio-text">
+      <h3 id="bio-name"></h3>
+      <p class="role" id="bio-role"></p>
+      <p id="bio-bio"></p>
+    </div>
+  </div>
+</dialog>
+
+<script>
+(function () {
+  var dialog = document.getElementById('bio-modal');
+  var photo = document.getElementById('bio-photo');
+  var name = document.getElementById('bio-name');
+  var role = document.getElementById('bio-role');
+  var bio = document.getElementById('bio-bio');
+
+  function openBio(card) {
+    photo.src = card.dataset.photo;
+    photo.alt = card.dataset.name;
+    name.textContent = card.dataset.name;
+    role.innerHTML = card.dataset.role;
+    bio.textContent = card.dataset.bio;
+    dialog.showModal();
+  }
+
+  document.querySelectorAll('.person-card').forEach(function (card) {
+    card.addEventListener('click', function (e) {
+      if (e.target.closest('a')) return;
+      openBio(card);
+    });
+    card.addEventListener('keydown', function (e) {
+      if (e.target !== card) return;
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        openBio(card);
+      }
+    });
+  });
+
+  document.getElementById('bio-close').addEventListener('click', function () {
+    dialog.close();
+  });
+  dialog.addEventListener('click', function (e) {
+    if (e.target === dialog) dialog.close();
+  });
+})();
+</script>
+
+</body>
+</html>
