@@ -266,6 +266,8 @@ section.alt { background: var(--bg-alt); }
 .person-info { padding: 1rem 1.1rem 1.25rem; }
 .person-info h3 { margin: 0 0 0.2rem; font-size: 1.02rem; }
 .person-info p.role { color: var(--text-muted); font-size: 0.85rem; margin: 0 0 0.5rem; line-height: 1.4; }
+.person-info p.talk { font-size: 0.85rem; margin: 0 0 0.5rem; line-height: 1.4; }
+.person-info p.talk em { color: var(--text); font-style: italic; }
 .person-info p.email { margin: 0; }
 .person-info p.email a { font-size: 0.85rem; }
 
@@ -312,6 +314,8 @@ table.dates tr:hover td { background: var(--bg-alt); }
 }
 
 .badge.tbd { background: #9a94ac; }
+.badge.confirmed { background: #2e9e6b; }
+.badge.sm { font-size: 0.62rem; padding: 0.1rem 0.5rem; margin-left: 0.4rem; }
 
 /* ---------- CTAs ---------- */
 
