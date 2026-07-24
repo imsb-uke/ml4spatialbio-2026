@@ -93,7 +93,7 @@ nav.site-nav a:hover, nav.site-nav a.active {
 
 header.site-header {
   position: relative;
-  background: linear-gradient(160deg, var(--primary-dark) 0%, var(--primary) 55%, var(--primary-light) 100%);
+  background: #0a0a10;
   color: #fff;
   padding: 4.5rem 1.5rem 5.5rem;
   text-align: center;
@@ -105,7 +105,17 @@ header.site-header .hero-graphic {
   inset: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.5;
+  object-fit: cover;
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+/* Dark scrim so the headline stays readable over the cell map */
+header.site-header::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(10,10,16,0.75) 0%, rgba(10,10,16,0.45) 55%, rgba(10,10,16,0.7) 100%);
   pointer-events: none;
 }
 
@@ -266,6 +276,8 @@ section.alt { background: var(--bg-alt); }
 .person-info { padding: 1rem 1.1rem 1.25rem; }
 .person-info h3 { margin: 0 0 0.2rem; font-size: 1.02rem; }
 .person-info p.role { color: var(--text-muted); font-size: 0.85rem; margin: 0 0 0.5rem; line-height: 1.4; }
+.person-info p.talk { font-size: 0.85rem; margin: 0 0 0.5rem; line-height: 1.4; }
+.person-info p.talk em { color: var(--text); font-style: italic; }
 .person-info p.email { margin: 0; }
 .person-info p.email a { font-size: 0.85rem; }
 
@@ -312,6 +324,8 @@ table.dates tr:hover td { background: var(--bg-alt); }
 }
 
 .badge.tbd { background: #9a94ac; }
+.badge.confirmed { background: #2e9e6b; }
+.badge.sm { font-size: 0.62rem; padding: 0.1rem 0.5rem; margin-left: 0.4rem; }
 
 /* ---------- CTAs ---------- */
 
