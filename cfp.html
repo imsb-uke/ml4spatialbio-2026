@@ -3,49 +3,33 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Call for Papers — ml4spatialbio 2026</title>
+<title>Call for Papers &middot; ml4spatialbio 2026</title>
 <meta name="description" content="Call for Papers for ml4spatialbio 2026, a NeurIPS 2026 workshop on machine learning for spatially resolved high-dimensional biology.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav class="site-nav">
-  <div class="nav-inner">
-    <a class="brand" href="index.html"><span class="dot"></span> ml4spatialbio 2026</a>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="cfp.html" class="active">Call for Papers</a></li>
-      <li><a href="index.html#speakers">Speakers</a></li>
-      <li><a href="index.html#schedule">Schedule</a></li>
-      <li><a href="index.html#organizers">Organizers</a></li>
-      <li><a href="index.html#dates">Dates</a></li>
-      <li><a href="cfp.html#submit">Submit</a></li>
-    </ul>
-  </div>
-</nav>
-
 <header class="site-header">
-  <svg class="hero-graphic" viewBox="0 0 1200 260" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-    <g stroke="#ffffff" stroke-width="1" opacity="0.5">
-      <line x1="100" y1="60" x2="240" y2="120"/>
-      <line x1="240" y1="120" x2="380" y2="70"/>
-      <line x1="380" y1="70" x2="520" y2="150"/>
-      <line x1="520" y1="150" x2="680" y2="90"/>
-      <line x1="680" y1="90" x2="820" y2="160"/>
-      <line x1="820" y1="160" x2="980" y2="100"/>
-      <line x1="980" y1="100" x2="1120" y2="150"/>
-    </g>
-    <g fill="#ffffff">
-      <circle cx="100" cy="60" r="5" opacity="0.7"/>
-      <circle cx="240" cy="120" r="7" opacity="0.9"/>
-      <circle cx="380" cy="70" r="6" opacity="0.8"/>
-      <circle cx="520" cy="150" r="7" opacity="0.85"/>
-      <circle cx="680" cy="90" r="6" opacity="0.75"/>
-      <circle cx="820" cy="160" r="6" opacity="0.8"/>
-      <circle cx="980" cy="100" r="6" opacity="0.75"/>
-      <circle cx="1120" cy="150" r="5" opacity="0.65"/>
-    </g>
-  </svg>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><span class="dot"></span> ml4spatialbio 2026</a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cfp.html" class="active">Call for Papers</a></li>
+          <li><a href="index.html#speakers">Speakers</a></li>
+          <li><a href="index.html#schedule">Schedule</a></li>
+          <li><a href="index.html#organizers">Organizers</a></li>
+          <li><a href="index.html#dates">Dates</a></li>
+          <li><a href="cfp.html#submit">Submit</a></li>
+        </ul>
+        <a class="dates-btn" href="index.html#dates">Dates &amp; Deadlines</a>
+      </div>
+    </div>
+  </nav>
   <div class="hero-inner">
     <div class="tag">NeurIPS 2026 Workshop &middot; Paris <span class="badge tbd">Date TBD</span></div>
     <h1>Call for Papers</h1>
@@ -75,8 +59,10 @@
   <div class="section-wrap" style="padding:0;">
     <div class="eyebrow">Format</div>
     <h2>Submission Format</h2>
-    <p>Submissions are <strong>short papers</strong>, reviewed in a <strong>non-archival</strong> format so that authors are free to submit related work concurrently to other venues. Papers will be reviewed by a program committee drawn from both the ML and biology communities, with three reviews per submission.</p>
-    <p class="note">Exact page limits, formatting template, and anonymity policy will be posted here once finalized and mirrored on the OpenReview submission page.</p>
+    <p>We invite <strong>extended abstracts of up to 4 pages</strong> (excluding references and an optional appendix), prepared using the NeurIPS 2026 style file. Submissions are <strong>non-archival</strong>, so authors are free to submit related or extended work concurrently to other venues.</p>
+    <p>Review is <strong>double-blind</strong>: submissions must be anonymized, with no author names or identifying affiliations. Each submission receives three reviews from a program committee drawn from both the ML and biology communities.</p>
+    <p>Papers must be formatted using the official <strong>NeurIPS 2026 LaTeX style file</strong> (<code>neurips_2026.tex</code> / <code>.sty</code>), available from the NeurIPS 2026 Call for Papers page on <a href="https://neurips.cc/Conferences/2026/CallForPapers" target="_blank" rel="noopener">neurips.cc</a> and mirrored as an Overleaf template. Use the style file's anonymous submission option (no author names or affiliations in the compiled PDF).</p>
+    <p class="note">The NeurIPS 2026 style file and any remaining formatting details will be linked here and mirrored on the OpenReview submission page once the venue is live.</p>
   </div>
 </section>
 
@@ -87,9 +73,8 @@
     <thead><tr><th>Milestone</th><th>Date</th></tr></thead>
     <tbody>
       <tr><td>Submission portal opens</td><td>August 2026</td></tr>
-      <tr><td>Submission deadline</td><td>September 5, 2026</td></tr>
-      <tr><td>Reviews returned to authors</td><td>September 22, 2026</td></tr>
-      <tr><td>Acceptance notifications</td><td>September 29, 2026</td></tr>
+      <tr><td>Submission deadline</td><td>August 29, 2026 (AoE)</td></tr>
+      <tr><td>Acceptance notifications</td><td>September 29, 2026 (AoE)</td></tr>
     </tbody>
   </table>
 </section>
@@ -99,8 +84,7 @@
     <div class="eyebrow">Submit</div>
     <h2>How to Submit</h2>
     <p>All submissions will be handled through OpenReview, ensuring transparent review and enabling accepted papers to be listed on the NeurIPS workshop schedule.</p>
-    <a class="cta" href="#" title="Link will be added once the OpenReview venue is live">OpenReview submission link — coming soon &rarr;</a>
-    <p class="note">This button will be updated with the live OpenReview link once the venue is set up.</p>
+    <a class="cta" href="#" title="Link will be added once the OpenReview venue is live">OpenReview submission link: coming soon &rarr;</a>
   </div>
 </section>
 
@@ -130,6 +114,24 @@
   <div class="footer-brand">ml4spatialbio 2026</div>
   A NeurIPS 2026 Workshop
 </footer>
+
+<script>
+(function () {
+  var toggle = document.getElementById('nav-toggle');
+  var menu = document.getElementById('nav-menu');
+  if (!toggle || !menu) return;
+  toggle.addEventListener('click', function () {
+    var open = menu.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  menu.querySelectorAll('a').forEach(function (link) {
+    link.addEventListener('click', function () {
+      menu.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+})();
+</script>
 
 </body>
 </html>

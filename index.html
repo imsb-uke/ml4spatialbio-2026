@@ -3,90 +3,57 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ml4spatialbio 2026 — ML for Spatially Resolved High-dimensional Biology (NeurIPS Workshop)</title>
+<title>ml4spatialbio 2026: ML for Spatially Resolved High-dimensional Biology (NeurIPS Workshop)</title>
 <meta name="description" content="ml4spatialbio 2026: A NeurIPS 2026 workshop on machine learning for spatially resolved high-dimensional biology.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav class="site-nav">
-  <div class="nav-inner">
-    <a class="brand" href="index.html"><span class="dot"></span> ml4spatialbio 2026</a>
-    <ul>
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="cfp.html">Call for Papers</a></li>
-      <li><a href="index.html#speakers">Speakers</a></li>
-      <li><a href="index.html#schedule">Schedule</a></li>
-      <li><a href="index.html#organizers">Organizers</a></li>
-      <li><a href="index.html#dates">Dates</a></li>
-      <li><a href="cfp.html#submit">Submit</a></li>
-    </ul>
-  </div>
-</nav>
-
-<header class="site-header">
-  <svg class="hero-graphic" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-    <g stroke="#ffffff" stroke-width="1" opacity="0.5">
-      <line x1="80" y1="90" x2="220" y2="150"/>
-      <line x1="220" y1="150" x2="180" y2="260"/>
-      <line x1="220" y1="150" x2="360" y2="120"/>
-      <line x1="360" y1="120" x2="470" y2="200"/>
-      <line x1="180" y1="260" x2="330" y2="300"/>
-      <line x1="330" y1="300" x2="470" y2="200"/>
-      <line x1="470" y1="200" x2="620" y2="90"/>
-      <line x1="620" y1="90" x2="740" y2="170"/>
-      <line x1="740" y1="170" x2="700" y2="300"/>
-      <line x1="330" y1="300" x2="480" y2="360"/>
-      <line x1="740" y1="170" x2="880" y2="120"/>
-      <line x1="880" y1="120" x2="1000" y2="190"/>
-      <line x1="1000" y1="190" x2="960" y2="320"/>
-      <line x1="700" y1="300" x2="960" y2="320"/>
-      <line x1="1000" y1="190" x2="1130" y2="140"/>
-    </g>
-    <g fill="#ffffff">
-      <circle cx="80" cy="90" r="5" opacity="0.7"/>
-      <circle cx="220" cy="150" r="7" opacity="0.9"/>
-      <circle cx="180" cy="260" r="5" opacity="0.6"/>
-      <circle cx="360" cy="120" r="6" opacity="0.8"/>
-      <circle cx="470" cy="200" r="8" opacity="0.95"/>
-      <circle cx="330" cy="300" r="5" opacity="0.6"/>
-      <circle cx="620" cy="90" r="6" opacity="0.75"/>
-      <circle cx="740" cy="170" r="7" opacity="0.85"/>
-      <circle cx="480" cy="360" r="4" opacity="0.5"/>
-      <circle cx="700" cy="300" r="5" opacity="0.6"/>
-      <circle cx="880" cy="120" r="6" opacity="0.8"/>
-      <circle cx="1000" cy="190" r="7" opacity="0.9"/>
-      <circle cx="960" cy="320" r="5" opacity="0.6"/>
-      <circle cx="1130" cy="140" r="5" opacity="0.65"/>
-    </g>
-  </svg>
-  <div class="hero-inner">
-    <div class="tag">NeurIPS 2026 Workshop &middot; Paris <span class="badge tbd">Date TBD</span></div>
-    <h1>Machine Learning for Spatially Resolved High-dimensional Biology</h1>
-    <p class="tagline">Advancing ML for spatial biology: novel methods to integrate and analyze spatial multiomics and tissue-scale data.</p>
-    <div class="meta">A one-day workshop bringing together ML researchers and experimental biologists</div>
-    <div class="hero-ctas">
-      <a class="cta" href="cfp.html">Call for Papers &rarr;</a>
-      <a class="cta ghost" href="#speakers">Invited Speakers</a>
+<header class="site-header hero-landing">
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><span class="dot"></span> ml4spatialbio 2026</a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="cfp.html">Call for Papers</a></li>
+          <li><a href="index.html#speakers">Speakers</a></li>
+          <li><a href="index.html#schedule">Schedule</a></li>
+          <li><a href="index.html#organizers">Organizers</a></li>
+          <li><a href="index.html#dates">Dates</a></li>
+          <li><a href="cfp.html#submit">Submit</a></li>
+        </ul>
+        <a class="dates-btn" href="index.html#dates">Dates &amp; Deadlines</a>
+      </div>
+    </div>
+  </nav>
+  <div class="hero-content-wrap">
+    <div class="hero-card">
+      <div class="tag">NeurIPS 2026 Workshop &middot; Paris <span class="badge tbd">Date TBD</span></div>
+      <h1>Machine Learning for Spatially Resolved High-dimensional Biology</h1>
+      <p class="tagline">Advancing ML for spatial biology: novel methods to integrate and analyze spatial multiomics and tissue-scale data.</p>
+      <p class="meta">A one-day workshop bringing together ML researchers and experimental biologists</p>
+      <div class="hero-ctas">
+        <a class="cta" href="cfp.html">Call for Papers &rarr;</a>
+        <a class="cta ghost" href="#speakers">Invited Speakers</a>
+      </div>
     </div>
   </div>
 </header>
-
-<div class="stat-strip">
-  <div class="stat"><span class="num">1</span><span class="label">Day workshop</span></div>
-  <div class="stat"><span class="num">4</span><span class="label">Confirmed speakers</span></div>
-  <div class="stat"><span class="num">150&ndash;250</span><span class="label">Expected attendees</span></div>
-  <div class="stat"><span class="num">Sep 5</span><span class="label">Submission deadline</span></div>
-</div>
 
 <main>
 
 <section id="overview">
   <div class="eyebrow">About</div>
   <h2>Overview</h2>
-  <p>Spatially resolved biology has become one of the most active frontiers in life sciences. Technologies for spatial transcriptomics, spatial proteomics, and multiplex imaging now measure molecular activity while preserving the position of cells inside intact tissue — enabling the study of how cells communicate, organize, and change within their native microenvironment, with direct consequences for cancer research, immunology, neuroscience, developmental biology, and precision medicine.</p>
-  <p>These measurements raise machine learning problems that do not fit cleanly into single-cell or imaging pipelines. Tissue is a geometric object: cells sit in irregular spatial graphs, signals vary smoothly across space, and biological meaning depends on context at several scales at once — from subcellular structure to multicellular niche to whole organs. Spatial assays are also inherently multimodal, pairing molecular readouts with histology images, and are growing toward atlas-scale and whole-slide resolution.</p>
-  <p>This workshop establishes a dedicated venue at NeurIPS for the intersection of ML and spatially resolved high-dimensional biology — bringing together ML researchers and experimental biologists around a shared set of methodological problems, surfacing open challenges, and beginning to build common benchmarks and evaluation standards for the field.</p>
+  <p>Spatially resolved biology has become one of the most active frontiers in life sciences. Technologies for spatial transcriptomics, spatial proteomics and multiplex imaging now measure molecular activity while keeping the position of cells inside intact tissue. This makes it possible to study how cells communicate, organize, and change within their native microenvironment, with direct consequence for cancer research, immunology, neuroscience, developmental biology, and precision medicine.</p>
+  <p>These measures raise machine learning (ML) problems that do not fit cleanly into either single-cell or imaging pipelines. Tissue is a geometric object: cells sit in irregular spatial graphs, signals vary smoothly across space, and biological meaning depends on context at several scales at once, from subcellular structure to multicellular niche to whole organs. Spatial assays are also inherently multimodal, pairing molecular readouts with histology images, and they are growing toward atlas scale and whole-slide resolution. Geometry based learning, multimodal representation learning, generative modeling, and pretrained foundation models are well suited to these problems; however, they need adaptation and new theory to handle the noise, sparsity, and scale of high-dimensional spatial data.</p>
+  <p>This workshop establishes a dedicated venue at NeurIPS for the intersection of ML and spatially resolved high-dimensional biology. Our goal is to bring together ML researchers and experimental biologists around a shared set of methodological problems, to surface open challenges, and to begin building common benchmarks and evaluation standards for the field.</p>
+  <h3>Timeliness</h3>
+  <p>The data landscape has shifted quickly. Platforms such as 10x Xenium, Visium HD, MERFISH, CosMx, and Phenocycler have moved spatial profiling from a handful of pilot studies into routine use, and public consortia are now releasing spatial atlases at large scale. The first spatial and tissue-aware foundation models have appeared in the past two years, and computational pathology has started to combine histology with molecular measurements. The methods, however, remain immature. There is still little agreement on how to represent tissue, how to evaluate spatial models, or how to transfer across platforms and tissues. This combination of abundant new data and unsettled methodology is precisely the moment when a focused NeurIPS workshop can shape the direction of a young field.</p>
 </section>
 
 <section class="alt" id="dates">
@@ -99,13 +66,12 @@
       </thead>
       <tbody>
         <tr><td>Submission portal opens</td><td>August 2026</td></tr>
-        <tr><td>Submission deadline</td><td>September 5, 2026</td></tr>
-        <tr><td>Reviews returned to authors</td><td>September 22, 2026</td></tr>
-        <tr><td>Acceptance notifications</td><td>September 29, 2026</td></tr>
+        <tr><td>Submission deadline</td><td>August 29, 2026 (AoE)</td></tr>
+        <tr><td>Acceptance notifications</td><td>September 29, 2026 (AoE)</td></tr>
         <tr><td>Workshop day</td><td>December 2026, Paris <span class="badge tbd">TBD</span></td></tr>
       </tbody>
     </table>
-    <p class="note">All times will be announced in the workshop's local timezone once confirmed by NeurIPS. Submissions are managed via OpenReview — see the <a href="cfp.html">Call for Papers</a> for details.</p>
+    <p class="note">All times will be announced in the workshop's local timezone once confirmed by NeurIPS. Submissions are managed via OpenReview. See the <a href="cfp.html">Call for Papers</a> for details.</p>
   </div>
 </section>
 
@@ -114,12 +80,12 @@
   <h2>Topics of Interest</h2>
   <p>We welcome contributions addressing open problems that call for novel ML methods rather than incremental applications, including:</p>
   <ul class="topics">
-    <li>Learning biologically meaningful spatial representations that hold across scales — from molecules to niches to organs</li>
+    <li>Learning biologically meaningful spatial representations that hold across scales, from molecules to niches to organs</li>
     <li>Integrating transcriptomic, proteomic, imaging, and clinical modalities into a single coherent model</li>
     <li>Modeling cell-cell communication and tissue dynamics over time</li>
-    <li>Interpretable and uncertainty-aware spatial models that biologists can trust</li>
-    <li>Benchmarks, datasets, and evaluation standards specific to spatial tasks</li>
-    <li>Foundation models for spatial biology that integrate biological priors and inductive biases for interpretability and cross-platform / cross-species generalization</li>
+    <li>Building interpretable and uncertainty-aware spatial models that biologists can trust</li>
+    <li>Designing benchmarks, datasets, and evaluation standards specific to spatial tasks</li>
+    <li>Developing novel ML and foundation models for spatial biology by integrating prior biological knowledge and inductive biases to improve interpretability and generalization across platforms, tissues, and species</li>
     <li>Handling data sparsity, noise, batch effects, and limited annotations</li>
     <li>Scaling learning to atlas-scale and whole-slide datasets</li>
   </ul>
@@ -132,52 +98,76 @@
     <h2>Invited Speakers</h2>
     <div class="people-grid">
       <div class="person-card" tabindex="0" role="button" aria-haspopup="dialog"
-           data-name="Julio Saez-Rodriguez" data-role="EMBL-EBI, Heidelberg" data-photo="images/julio-saez-rodriguez.jpeg"
-           data-bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+           data-name="Julio Saez-Rodriguez" data-role="Head of Research, EMBL-EBI, Hinxton" data-photo="images/julio-saez-rodriguez.jpeg"
+           data-bio="Julio Saez-Rodriguez is Head of Research at the European Bioinformatics Institute (EMBL-EBI), Professor on leave of Medical Bioinformatics and Data Analysis at the Faculty of Medicine of Heidelberg University, a member of ELLIS Heidelberg, and a co-director of the DREAM challenges. He is broadly interested in how large biological data sets can be interrogated with mathematical models to unveil the molecular basis of disease as a means to develop novel therapies. The current emphasis of his research is on single-cell and spatial data, multi-omics integration, and understanding multi-cellular communication. He is particularly interested in how to use existing knowledge of biological processes to support computational analysis. He supports open science, especially by developing open-source computational tools and co-organizing the DREAM challenges. While his computational methods are broadly applicable, his focus is on cancer, autoimmune diseases, and conditions of the kidney and heart.">
         <div class="person-photo"><img src="images/julio-saez-rodriguez.jpeg" alt="Julio Saez-Rodriguez"></div>
         <div class="person-info">
           <h3>Julio Saez-Rodriguez</h3>
-          <p class="role">EMBL-EBI, Heidelberg</p>
+          <p class="role">Head of Research, EMBL-EBI, Hinxton</p>
+          <p class="talk"><em>&ldquo;Benchmarking (spatial) foundation models&rdquo;</em> <span class="badge tbd sm">Tentative</span></p>
           <p class="view-bio">View bio &rarr;</p>
         </div>
       </div>
       <div class="person-card" tabindex="0" role="button" aria-haspopup="dialog"
-           data-name="Maria Brbić" data-role="EPFL, Zurich" data-photo="images/maria-brbic.jpg"
-           data-bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.">
+           data-name="Maria Brbić" data-role="Assistant Professor, EPFL, Lausanne" data-photo="images/maria-brbic.jpg"
+           data-bio="Maria Brbić is an Assistant Professor of Computer Science and Life Sciences at EPFL in Lausanne, Switzerland, where she is affiliated with the EPFL AI Center and the Institute of Bioengineering. Her research develops new AI methods that drive advances in biology and biomedicine. She earned her PhD from the University of Zagreb in 2019, receiving an Outstanding Thesis Award, and carried out part of her doctoral research at Stanford University as a Fulbright Scholar. Before joining EPFL in 2022, she was a postdoctoral researcher in the Department of Computer Science at Stanford University, working with Jure Leskovec and as a member of the Chan Zuckerberg Biohub. She is a CIFAR Fellow in the Multiscale Human program and an ELLIS Scholar; her honors include being named a Rising Star in EECS by MIT (2021), an SIB Early Career Award (2023), and an SNSF Starting Grant (2024).">
         <div class="person-photo"><img src="images/maria-brbic.jpg" alt="Maria Brbić"></div>
         <div class="person-info">
           <h3>Maria Brbić</h3>
-          <p class="role">EPFL, Zurich</p>
+          <p class="role">Assistant Professor, EPFL, Lausanne</p>
+          <p class="talk"><em>&ldquo;Toward Multimodal Modeling of Cellular Complexity&rdquo;</em> <span class="badge tbd sm">Tentative</span></p>
           <p class="view-bio">View bio &rarr;</p>
         </div>
       </div>
       <div class="person-card" tabindex="0" role="button" aria-haspopup="dialog"
-           data-name="Pierre Bost" data-role="Institut Curie, Paris" data-photo="images/pierre-bost.jpg"
-           data-bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis.">
+           data-name="Pierre Bost" data-role="Junior Principal Investigator, Institut Curie, Paris" data-photo="images/pierre-bost.jpg"
+           data-bio="Dr. Pierre Bost is a Junior Principal Investigator at Institut Curie, where he develops computational and statistical methods for single-cell and spatial omics. After completing a joint PhD at Institut Pasteur and the Weizmann Institute of Science, he pursued postdoctoral research at ETH Zürich and the University of Zürich. His work spans computational biology, statistics, and genomics, with contributions including the development of Viral-Track for viral detection in single-cell RNA-seq and new methods for the analysis and design of spatial transcriptomic experiments. His current research focuses on scalable computational approaches to understand tissue organization, viral infections, and human disease using large-scale spatial and single-cell datasets.">
         <div class="person-photo"><img src="images/pierre-bost.jpg" alt="Pierre Bost"></div>
         <div class="person-info">
-          <h3>Pierre Bost</h3>
-          <p class="role">Institut Curie, Paris</p>
+          <h3>Pierre Bost <span class="badge confirmed sm">Confirmed</span></h3>
+          <p class="role">Junior Principal Investigator, Institut Curie, Paris</p>
+          <p class="talk"><em>&ldquo;Making sense of spatial omic data&rdquo;</em> <span class="badge tbd sm">Tentative</span></p>
           <p class="view-bio">View bio &rarr;</p>
         </div>
       </div>
       <div class="person-card" tabindex="0" role="button" aria-haspopup="dialog"
-           data-name="Martin Seifert" data-role="10x Genomics" data-photo="images/martin-seifert.jpg"
-           data-bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.">
+           data-name="Martin Seifert" data-role="Senior Science &amp; Technology Provider, 10x Genomics" data-photo="images/martin-seifert.jpg"
+           data-bio="Dr. Martin Seifert is a Senior Science and Technology Provider at 10x Genomics. He began his career with transcriptomic studies at the Technical University of Munich and later joined Genomatix, co-authoring the first human transcriptome paper in Science (2008). Before joining 10x Genomics, he founded Connexome, a consulting firm focused on multimodal analyses in clinical settings. With over 50 publications in genomics, epigenetics, and transcriptomics, Martin is keen on integrating single-cell and spatial technologies with clinical data.">
         <div class="person-photo"><img src="images/martin-seifert.jpg" alt="Martin Seifert"></div>
         <div class="person-info">
           <h3>Martin Seifert</h3>
-          <p class="role">10x Genomics</p>
+          <p class="role">Senior Science &amp; Technology Provider, 10x Genomics</p>
+          <p class="view-bio">View bio &rarr;</p>
+        </div>
+      </div>
+      <div class="person-card person-card-tbd" tabindex="0" role="button" aria-haspopup="dialog"
+           data-name="Speaker TBD" data-role="To be announced" data-photo=""
+           data-bio="This speaker slot will be announced soon.">
+        <div class="person-photo person-photo-tbd">TBD</div>
+        <div class="person-info">
+          <h3>Speaker TBD</h3>
+          <p class="role">To be announced</p>
+          <p class="view-bio">View bio &rarr;</p>
+        </div>
+      </div>
+      <div class="person-card person-card-tbd" tabindex="0" role="button" aria-haspopup="dialog"
+           data-name="Speaker TBD" data-role="To be announced" data-photo=""
+           data-bio="This speaker slot will be announced soon.">
+        <div class="person-photo person-photo-tbd">TBD</div>
+        <div class="person-info">
+          <h3>Speaker TBD</h3>
+          <p class="role">To be announced</p>
           <p class="view-bio">View bio &rarr;</p>
         </div>
       </div>
     </div>
+    <p class="note">Confirmed speakers are marked. The remaining invited speakers are being finalized, and the list will be updated as confirmations are received.</p>
   </div>
 </section>
 
 <section id="schedule">
   <div class="eyebrow">Format</div>
-  <h2>Indicative Schedule</h2>
+  <h2>Indicative Schedule <span class="badge tbd sm">Tentative</span></h2>
   <div class="grid cols-2">
     <div class="schedule-block">
       <h4>Morning</h4>
@@ -198,7 +188,7 @@
       </ul>
     </div>
   </div>
-  <p class="note">Exact timing will be published once the room and slot are confirmed by NeurIPS.</p>
+  <p class="note">The workshop runs as a full day, approximately 8:00 AM&ndash;5:00 PM (to be confirmed by NeurIPS). This is a tentative structure; exact ordering and timing will be published once the room and slot are confirmed.</p>
 </section>
 
 <section class="alt" id="organizers">
@@ -208,7 +198,7 @@
     <div class="people-grid">
       <div class="person-card" tabindex="0" role="button" aria-haspopup="dialog"
            data-name="Stefan Bonn" data-role="Professor &amp; PI, University Medical Center Hamburg-Eppendorf (UKE), Germany" data-photo="images/stefan-bonn.jpeg"
-           data-bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+           data-bio="Stefan Bonn leads the Institute of Medical Systems Bioinformatics at UKE Hamburg, where his group combines expertise in AI, machine learning, bioinformatics, and image analysis to unravel the complexities of human pathology, with a current focus on cell-to-cell signaling in immune-mediated and neurodegenerative diseases. His lab develops deep learning, probabilistic, and graph-based methods for large-scale biomedical data, with tools including DISCERN (Genome Biology, 2023) for single-cell gene expression reconstruction and DISSECT (Genome Biology, 2024) for cell type deconvolution. In the spatial transcriptomics domain specifically, his group developed NichePCA, a scalable and interpretable PCA-based algorithm for spatial domain identification (Bioinformatics, 2025) and SCALE, a method for unsupervised multiscale spatial domain identification in spatial omics data (Nucleic Acids Research, 2026). Most recently, his group built a high-resolution spatial kidney cell atlas from 57 patient samples across multiple autoimmune kidney diseases, revealing spatiotemporally conserved immune-renal cell interaction programs driving glomerular crescent formation, published in Nature Immunology (2025). This body of collaborative spatial transcriptomics work directly motivates and anchors the present workshop proposal. He completed his postdoctoral fellowship at EMBL Heidelberg (2008–2012), was subsequently an independent research group leader at the German Center for Neurodegenerative Diseases (2012–2017), and he has directed the IMSB institute at UKE since its establishment in 2017. He is also a member of ELLIS (European Laboratory for Learning and Intelligent Systems).">
         <div class="person-photo"><img src="images/stefan-bonn.jpeg" alt="Stefan Bonn"></div>
         <div class="person-info">
           <h3>Stefan Bonn</h3>
@@ -219,7 +209,7 @@
       </div>
       <div class="person-card" tabindex="0" role="button" aria-haspopup="dialog"
            data-name="Robin Khatri" data-role="Postdoctoral Researcher &amp; Junior Group Leader, UKE, Germany" data-photo="images/robin-khatri.jpg"
-           data-bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.">
+           data-bio="Robin Khatri is a postdoctoral researcher and junior group leader at the Institute of Medical Systems Bioinformatics (IMSB), University Medical Center Hamburg-Eppendorf (UKE), Germany. He earned his doctorate (summa cum laude) in 2025 from the Faculty of Computer Science at the University of Hamburg, working in systems biology under the supervision of Prof. Stefan Bonn. His doctoral research developed deep learning methods for the computational estimation of cell type composition and dynamics in single-cell and spatial omics data. He previously completed a master in Computer Science with a university diploma in Machine Learning and Data Mining at Jean Monnet University, Saint-Étienne, France. His current research focuses on machine learning methods for spatial transcriptomics with applications to autoimmune kidney diseases and glioblastoma. He is an Add-on Fellow of the Joachim Herz Foundation for Interdisciplinary Life Sciences (2024–2026) and a fellow of the UKE iPrime Medical Scientist Programme (2026).">
         <div class="person-photo"><img src="images/robin-khatri.jpg" alt="Robin Khatri"></div>
         <div class="person-info">
           <h3>Robin Khatri</h3>
@@ -230,7 +220,7 @@
       </div>
       <div class="person-card" tabindex="0" role="button" aria-haspopup="dialog"
            data-name="Lucia Testa" data-role="Postdoctoral Researcher, UKE, Germany" data-photo="images/lucia-testa.jpeg"
-           data-bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis.">
+           data-bio="Lucia Testa is a postdoctoral researcher at the Institute of Medical Systems Bioinformatics (IMSB), UKE Hamburg, where her work focuses on topology-aware learning methods for spatial transcriptomics data and Topological Deep Learning for Computational Chemistry. She received her PhD in Data Science (with distinction) from Sapienza University of Rome in 2025, supervised by Prof. Sergio Barbarossa, with a thesis on topological signal processing and learning under uncertainties. Her publications include Generalized Simplicial Attention Neural Networks (IEEE TSIPN, 2025), Cell Attention Networks (IJCNN, 2023), and VitaGraph, a biological knowledge graph for computational biology tasks (Scientific Data, 2026). She has served as a reviewer for IEEE Transactions on Signal Processing, IEEE TSIPN, ICASSP, and IJCNN. She was awarded the Best Master's Thesis Award by Fondazione Sapienza and the Best Graduate Award by BCC Bellegra in 2021.">
         <div class="person-photo"><img src="images/lucia-testa.jpeg" alt="Lucia Testa"></div>
         <div class="person-info">
           <h3>Lucia Testa</h3>
@@ -241,7 +231,7 @@
       </div>
       <div class="person-card" tabindex="0" role="button" aria-haspopup="dialog"
            data-name="Behnam Yousefi" data-role="Postdoctoral Researcher, UKE, Germany" data-photo="images/behnam-yousefi.jpg"
-           data-bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.">
+           data-bio="Behnam Yousefi is a postdoctoral researcher at the Institute of Medical Systems Bioinformatics (IMSB), UKE Hamburg. He received his PhD in Computational Biology from Institut Pasteur, Paris, and Sorbonne Université, Paris, in 2023, with a thesis on network-based machine learning methods to model variability across individuals, funded by the Marie Skłodowska-Curie Actions fellowship. He previously earned a BS in Electrical Engineering and an MS in Biomedical Engineering, graduating with top student honors in both programs. His research focuses on geometric deep learning in biomedicine and drug discovery, network medicine, spatial single-cell omics data analysis, and agentic AI. His featured recent publications include Spatiotemporal interaction of immune and renal cells controls glomerular crescent formation in autoimmune kidney disease (Nature Immunology, 2025), SCALE: unsupervised multiscale domain identification in spatial omics data (Nucleic Acids Research, 2026), PCA-based spatial domain identification with state-of-the-art performance (Bioinformatics, 2025), and BioChemAIgent: An AI-driven Protein Modeling and Docking Framework for Structure-Based Drug Discovery (bioRxiv, 2026).">
         <div class="person-photo"><img src="images/behnam-yousefi.jpg" alt="Behnam Yousefi"></div>
         <div class="person-info">
           <h3>Behnam Yousefi</h3>
@@ -279,7 +269,6 @@
 <dialog class="bio-modal" id="bio-modal">
   <button class="bio-close" id="bio-close" aria-label="Close">&times;</button>
   <div class="bio-content">
-    <div class="bio-photo"><img id="bio-photo" src="" alt=""></div>
     <div class="bio-text">
       <h3 id="bio-name"></h3>
       <p class="role" id="bio-role"></p>
@@ -291,14 +280,11 @@
 <script>
 (function () {
   var dialog = document.getElementById('bio-modal');
-  var photo = document.getElementById('bio-photo');
   var name = document.getElementById('bio-name');
   var role = document.getElementById('bio-role');
   var bio = document.getElementById('bio-bio');
 
   function openBio(card) {
-    photo.src = card.dataset.photo;
-    photo.alt = card.dataset.name;
     name.textContent = card.dataset.name;
     role.innerHTML = card.dataset.role;
     bio.textContent = card.dataset.bio;
@@ -324,6 +310,24 @@
   });
   dialog.addEventListener('click', function (e) {
     if (e.target === dialog) dialog.close();
+  });
+})();
+</script>
+
+<script>
+(function () {
+  var toggle = document.getElementById('nav-toggle');
+  var menu = document.getElementById('nav-menu');
+  if (!toggle || !menu) return;
+  toggle.addEventListener('click', function () {
+    var open = menu.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  menu.querySelectorAll('a').forEach(function (link) {
+    link.addEventListener('click', function () {
+      menu.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
   });
 })();
 </script>
