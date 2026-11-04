@@ -522,6 +522,33 @@ footer .footer-brand {
   margin-bottom: 0.4rem;
 }
 
+/* ---------- Sponsors ---------- */
+
+.sponsor-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.4rem;
+  margin: 1.6rem 0 1.4rem;
+}
+
+.sponsor-logo {
+  display: inline-flex;
+  align-items: center;
+  transition: opacity 0.2s ease;
+}
+
+.sponsor-logo:hover { opacity: 0.8; }
+
+.sponsor-logo:focus-visible { outline: 2px solid var(--primary); outline-offset: 4px; border-radius: 4px; }
+
+.sponsor-logo img {
+  display: block;
+  height: 56px;
+  width: auto;
+  max-width: 100%;
+}
+
 /* ---------- Responsive: hero, nav, stat strip ---------- */
 
 @media (max-width: 1024px) {
